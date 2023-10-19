@@ -1,0 +1,23 @@
+{
+  "name": "vef1-2023-v6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "browser-sync": "browser-sync start --server --files index.html styles.css",
+    "sass": "sass styles.scss styles.css",
+    "sass-watch": "sass --watch styles.scss styles.css",
+    "dev": "concurrently npm:sass-watch npm:browser-sync",
+    "lint": "stylelint styles.scss ./**/*.scss"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "concurrently": "^8.2.2",
+    "sass": "^1.69.4",
+    "sass-watch": "^0.1.0",
+    "stylelint": "^15.11.0"
+  }
+}

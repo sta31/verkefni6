@@ -1,0 +1,19 @@
+/** Fótur **/
+  
+.footer {
+    padding: var(--spacing);
+    border-top: var(--border-large) solid var(--color-gold);
+    width: 100%;
+  
+    background-color: var(--color-dark);
+    color: var(--color-gold-light);
+  }
+  
+  .footer .content {
+    display: grid;
+    gap: var(--vertical-space);
+  
+    margin: 0 auto;
+  
+    text-align: center;
+  }
